@@ -45,18 +45,77 @@
 	
 	<!-- Section Content -->
 	<section id="content">
-		<h2>Scratch Content<h2>
-		<p>Replace this text with project and assignment examples</p>
+		<h2>Scratch Content</h2>
+		<a href ="https://scratch.mit.edu/projects/119675806/"> <h2>Name Project</h2> </a>
+		<p>The purpose of the project was to create sprites and scripts that would animate
+		letters to display my name. There would need to be at least 3 unique behaviors for 
+		each of the letters, and extra credit was provided for those who were able to have 
+		the scene reset when the green flag was clicked. I decided to have the letters start
+		at different parts of the screen, then come together at the center in the spotlight. 
+		The letters would then be animated to switch between my first and last name. They would 
+		also gradually change color. Even though it was unneeded, I added the ball for the because I felt like it. </p>
+		
+		<h3>Concepts Learned</h3>
+		<ul>
+		<h2>
+			<li>Using event blocks - green flag clicked, when key pressed, the scene reset and played out</li>
+			<li>Conditional statements - used if statements to determine whether or not the green flag had been clicked yet.</li>
+			<li>Used loops -I used a forever block to repeat the animations forever until the animation was manually stopped for the green flag was clicked again.</li>
+			<li>Sprites - I reused the sprites from the library for the background and letters, and ball.</li>
+			<li>Movement - I added the go to x, y after the green flag block in order to reset the locations of the blocks. I then used the glide to x, y to animate the movement of the letters towards the center of the screen. I had the ball move an x amount of steps, then turn x degrees infinitely.</li>
+		</h2>
+		</ul>
+		
+		<a href = "https://scratch.mit.edu/projects/120218686/"> <h2>Computer Buying Project</h2> </a>
+		<p>The guidelines for the project were that it needed to be some kind of presentation displaying the specs of certain computers,
+		then select one to be bought for certain criteria. I collaborated with Claude Yan on this, and interviewed our friend Derek for the criteria. 
+		We made an animation in which Derek is at a computer store browsing for computers, and a salesman comes up to him and offers him a selection of four computers. 
+		We had Derek select the computer that was most 'bang for your buck'. We got extra credit for the project because we implemented voice lines for the characters.</p>
+		
+		<h3> Concepts Learned</h3>
+		<ul>
+		<h2>
+			<li>Broadcast - When a certain message was broadcasted, the sprites would respond. This is a better than just timing because it’s less tedious, and when the green flag is clicked, you can set it to start at a certain scene.</li>
+			<li>Sound - Used sound to make the project more interesting and entertaining. Also it was something that Claude could do in the meantime while I focused on the animation.</li>
+		</ul>
+		
+		<a href = "https://scratch.mit.edu/projects/121054091/"> <h2>Final Project</h2> </a>
+		<p>The project was to be a game or an animation that covered all the concepts learned so far. 
+		It needed to let the player know if they win, have a score and time counter, help screen, and level progression. 
+		I decided to make a 'bullet hell' game, with multiple enemies spawning and shooting out projectiles. 
+		After a certain amount of enemies spawned, a boss would appear, but I think I made the game too hard for anyone to actually reach it.</p>
+		
+		<h3>Concepts Learned</h3>
+		<ul>
+		<h2>
+			<li>Cloning - To make the multiple enemies, I needed to find a way to make clones of them from a spawner. Those clones would then make clones of the bullets.</li>
+			<li>Go to - I needed to find a way to have the player’s ship move to the cursor, but not instantly. I had the sprite check if it was far enough from the cursor, then point and move towards it</li>
+			<li>Touching - Having the sprite check if it is touching a certain object is the prime way to implement hit registry. Whenever the bullet touched the player/enemy or edge, it would trigger and disappear.  </li>
+		</h2>
+		</ul>
+
+		
+		
 	</section><!-- end Content -->
 	
 	<!-- Aside Content -->
 	<aside id="hobbies">
-		<p>Place things you like here; photos, links, videos, etc.</p>
+		<p>Pictures or Something.</p>
+		
+		<h3>Name Project</h3>
+		<img src = "images/nameproject.png"/>
+		
+		<h3>Computer Buying Project</h3>
+		<img src = "images/dereksnewcomputer.png"/>
+		
+		<h3>Final Project</h3>
+		<img src = "images/scratchfinalproject.png"/>
+		
 	</aside><!-- end Hobbies -->
 	
 	<!-- Footer Content -->
 	<footer id="pageFooter">
-		<p>author, contact info, copyright</p>
+		<p>Ryan Wang, ©2016</p>
 	</footer><!-- end Footer -->
 	
 </header><!-- end wrapper -->
